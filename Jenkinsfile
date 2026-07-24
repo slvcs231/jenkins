@@ -1,9 +1,9 @@
 pipeline {
     agent {
-           node {
-        label 'AGENT-1'
+        node {
+            label 'AGENT-1'
         }
-    }     
+    }
 
     stages {
         stage('Build') {
@@ -11,20 +11,23 @@ pipeline {
                 echo 'Building the code'
             }
         }
+
         stage('Test') {
             steps {
                 echo 'Testing the code'
             }
         }
+
         stage('Deploy') {
             steps {
                 echo 'Deploying the code'
             }
         }
-        post {
-            always {
-                echo 'I will always says Welcome to Bangalore'
-            }
+    }
+
+    post {
+        always {
+            echo 'I will always say Welcome to Bangalore'
         }
     }
 }
