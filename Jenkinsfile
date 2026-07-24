@@ -9,12 +9,23 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the code'
+                script { 
+                    sh """
+                    echo "Buiding
+                    """
+                  }
+                }
             }
         }
 
         stage('Test') {
             steps {
-                echo 'Testing the code'
+                script {
+                    sh """
+                        echo 'Testing the code'
+                    """
+                }
+                
             }
         }
 
