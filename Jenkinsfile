@@ -21,8 +21,8 @@ pipeline {
                 echo 'Deploying the code'
             }
         }
-        post{
-            always{
+        post {
+            always {
                 echo 'I will always says Welcome to Bangalore'
             }
         }
