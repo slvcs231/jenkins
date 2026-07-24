@@ -26,6 +26,7 @@ pipeline {
                 script {
                     sh """
                         echo "Testing the code"
+                        echo $course
                     """
                 }
             }
