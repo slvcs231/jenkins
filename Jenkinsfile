@@ -28,6 +28,7 @@ pipeline {
                     sh """
                         echo "Building"
                         echo "Welcome Reddiah"
+                        echo "How about your course"
                         echo $course
                         sleep 10
                         env
