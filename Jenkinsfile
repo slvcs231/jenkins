@@ -48,6 +48,7 @@ pipeline {
                     sh """
                         echo "Testing the code"
                         echo $course
+                        env
                     """
                 }
             }
