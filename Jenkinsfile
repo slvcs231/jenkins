@@ -37,6 +37,7 @@ pipeline {
                         echo "Toggle: ${params.DEPLOY}"
                         echo "Choice: ${params.CHOICE}"
                         echo "Password: ${params.PASSWORD}"
+                        echo "Welcome Reddiah"
                     """
                 }
             }
