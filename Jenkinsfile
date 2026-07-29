@@ -30,6 +30,7 @@ pipeline {
                         echo "Welcome Reddiah"
                         echo "How about your course"
                         echo $course
+                        echo "pwd"
                         sleep 10
                         env
                         echo "Hello ${params.PERSON}"
