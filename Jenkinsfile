@@ -40,6 +40,7 @@ pipeline {
                         echo "Welcome Reddiah"
                         echo "Welcome to Bangalore"
                         echo "Hiiii"
+                        echo "hidkjkjsfk"
                     """
                 }
             }
