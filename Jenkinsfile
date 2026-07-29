@@ -38,6 +38,7 @@ pipeline {
                         echo "Choice: ${params.CHOICE}"
                         echo "Password: ${params.PASSWORD}"
                         echo "Welcome Reddiah"
+                        echo "Welcome to Bangalore"
                     """
                 }
             }
